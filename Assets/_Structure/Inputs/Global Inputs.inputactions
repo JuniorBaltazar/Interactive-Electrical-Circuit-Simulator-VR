@@ -1,0 +1,74 @@
+{
+    "name": "Global Inputs",
+    "maps": [
+        {
+            "name": "Spawn Interactables",
+            "id": "fdab7cea-2862-462e-bb85-78dcdbec08fe",
+            "actions": [
+                {
+                    "name": "Spawn Wire",
+                    "type": "Button",
+                    "id": "2463c2e6-c075-4f0e-b838-9146f87a7d01",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Spawn Interruptor",
+                    "type": "Button",
+                    "id": "c47924e2-b4bb-4aa7-871d-4eaca02865e1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Spawn Power Source",
+                    "type": "Button",
+                    "id": "14ceabad-5d5b-4872-b4ea-a58a290973c9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4b458732-0175-4d4b-80c8-8e7754a37666",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spawn Wire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2efa8713-9e4b-4871-8122-80fd4eed21c5",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spawn Interruptor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a97c24a-22cf-4a09-9d21-72a8fe4346d1",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spawn Power Source",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
