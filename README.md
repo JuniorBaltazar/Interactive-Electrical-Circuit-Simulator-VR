@@ -1,54 +1,52 @@
-# Instalação
+# Installation
 
-Para rodar o projeto, é necessário:
-1. Instalar Unity 2022.3.38f1 (você pode baixar por [aqui](https://unity.com/pt/releases/editor/archive))
-2. Faça o clone do projeto da nuvem no diretório local
-3. Abra o Unity Hub
-4. Adicione o projeto no Unity Hub (após clonar totalmente o projeto)
-5. Abra o projeto
-6. Vá na pasta: "Assets > _Structure > _Scenes > Gameplay"
-7. PLAY para rodar o projeto
+To run the project, you need to:  
+1. Install Unity 2022.3.38f1 (you can download it [here](https://unity.com/pt/releases/editor/archive))  
+2. Clone the project from the cloud to your local directory  
+3. Open Unity Hub  
+4. Add the project to Unity Hub (after fully cloning the project)  
+5. Open the project  
+6. Go to the folder: "Assets > _Structure > _Scenes > Gameplay"  
+7. Press PLAY to run the project  
 
-# Como jogar
+# How to Play  
 
-https://github.com/user-attachments/assets/d65f085c-6b1e-46a4-ad46-891896eb1755
+https://github.com/user-attachments/assets/d65f085c-6b1e-46a4-ad46-891896eb1755  
 
+## Headset  
+- WASD - Move character  
+- Mouse - Rotate camera  
+- T - Switch between XR controller (left) and headset  
+- Y - Switch between XR controller (right) and headset  
 
-## Head Set
-- WASD - Mover personagem
-- Mouse - Girar câmera
-- T - Alternar entre controle XR (esquerdo) e headset
-- Y - Alternar entre controle XR (direito) e headset
+## XR Controller (Left)  
+- WASD - Move character  
+- Move Mouse - Rotate XR controller (left)  
+- Mouse (left click) - Interact  
+- T - Switch between XR controller (left) and headset  
+- Y - Switch between XR controller (right) and headset  
 
-## Controle XR (Esquerdo)
-- WASD - Mover personagem
-- Mover Mouse - Girar controle XR (esquerdo)
-- Mouse (clique esquerdo) - interagir
-- T - Alternar entre controle XR (esquerdo) e headset
-- y - Alternar entre controle XR (direito) e headset
+## XR Controller (Right)  
+- IJKL - Move character  
+- Move Mouse - Rotate XR controller (right)  
+- T - Switch between XR controller (left) and headset  
+- Y - Switch between XR controller (right) and headset  
 
-## Controle XR (Direito)
-- IJKL - Mover personagem
-- Mover Mouse - Girar controle XR (direito)
-- T - Alternar entre controle XR (esquerdo) e headset
-- Y - Alternar entre controle XR (direito) e headset
+# Practices Used  
 
+- The event-based concept was used, ensuring that scripts and functions work independently. This makes maintenance, adaptation, and scalability easier.  
+- Canvas World Space was used for each circuit component.  
+- Logic was reused among circuit components to avoid redundant code repetition.  
 
-# Práticas usadas
+# Implementation Wish  
 
-- Foi usado o conceito de eventos, fazendo com que os scripts e as funções trabalhem isoladamente, isso faz com que a manutenção, adaptação e escalabilidade fique mais fáceis.
-- Canvas World Space foi utilizado em cada peça do circuito.
-- Lógica foi reutilizada entre as peças dos circuitos, para não haver rendundância de repetição de código.
+- Creation of multiple "sockets" in a single component, allowing cable branching, power sources, etc., to enable complex circuits. (Although there are multiple "sockets" and a base logic for creating infinite components, there is no logic to manage them.)  
 
-# Desejo de implementação
+# Challenges  
 
-- Criação de múltiplos "sockets" em uma única peça, criando ramificações dos cabos, fontes de energia, etc. Que fosse possível criar um circuito complexo. (embora tenha os multiplos "sockets" e logica base para criação de infinitas peças, não há a logica para gerenciar).
-
-# Desafios
-
-- Foi implementado o sistema VR, mas também era o primeiro contato e experiência com VR, então levou mais tempo para saber como manusear o plugin. E também não havia conhecimento sobre qual o plugin VR correto para implementar no projeto, o que levou a uma análise mais longa.
-- Não ter certeza se o projeto funciona perfeitamente para VR, pois não há o hardware para testar em versão "build" ou não ter conhecimento técnico suficiente nessa área (VR) para confirmar funcionalidade estável do plugin utilizado.
-- Não foi possível desativar determinados botões de interação do plugin XR Toolkit, trazendo entradas de teclado desnecessárias durante a execução do projeto
+- The VR system was implemented, but it was also the first contact and experience with VR, which took more time to understand how to handle the plugin. Additionally, there was no prior knowledge of the correct VR plugin for the project, leading to a longer analysis.  
+- Uncertainty about whether the project works perfectly for VR, as there is no hardware to test it in a "build" version or sufficient technical knowledge in this area (VR) to confirm the stable functionality of the plugin used.  
+- It was not possible to disable certain interaction buttons from the XR Toolkit plugin, causing unnecessary keyboard inputs during project execution.
 
 # Assets usados
 
